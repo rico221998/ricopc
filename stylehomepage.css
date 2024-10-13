@@ -1,0 +1,68 @@
+/* General body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Professional and readable font */
+    background-color: #f0f4f8; /* Light background for a clean look */
+    color: #003366; /* Dark blue text for contrast */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center content */
+}
+
+/* Header (h1) styling */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #003366; /* Dark blue for school-related theme */
+    margin: 20px 0;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    color: #004080; /* Lighter blue for paragraph text */
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    line-height: 1.5;
+}
+
+/* List and link styling */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    background-color: #006699; /* Sky blue background for links */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #005580; /* Darker blue on hover for interactivity */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px; /* Reduce font size on small screens */
+    }
+    
+    p {
+        font-size: 16px; /* Smaller text for readability on mobile */
+    }
+    
+    ul li a {
+        font-size: 16px;
+    }
+}

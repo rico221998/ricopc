@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    background-color: #e0f7fa; /* Light blue background for a technical feel */
+    color: #333; /* Dark grey text for contrast */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header (h1) styling */
+h1 {
+    font-size: 36px;
+    color: #00695c; /* Deep teal for a strong visual impact */
+    margin: 20px 0;
+    text-transform: uppercase; /* Make title all uppercase for a more formal look */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+/* List styling */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px; /* Keep the list centered and not too wide */
+}
+
+/* List items styling */
+li {
+    margin: 15px 0;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00796b; /* Teal background for links */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+/* Link hover effect */
+a:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    a {
+        padding: 8px 15px;
+    }
+}

@@ -1,0 +1,72 @@
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Modern and clean font */
+    background-color: #1a1a2e; /* Dark blue for a techy feel */
+    color: #f0f0f0; /* Light text for contrast against dark background */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header (h1) styling */
+h1 {
+    font-size: 40px;
+    color: #00adb5; /* Vibrant teal to represent modern technology */
+    margin: 20px 0;
+    text-transform: uppercase; /* Make title all uppercase for emphasis */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    color: #eeeeee;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.7;
+}
+
+/* List styling */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* List items styling */
+li {
+    margin: 15px 0;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00adb5; /* Vibrant teal background for links */
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Link hover effect */
+a:hover {
+    background-color: #007f83; /* Darker teal on hover */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    a {
+        padding: 10px 20px;
+    }
+}

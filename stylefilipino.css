@@ -1,0 +1,68 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif; /* Simple and clean font */
+    background-color: #f2f4f6; /* Light grey background for softness */
+    color: #333; /* Dark grey for text */
+    margin: 0;
+    padding: 20px; /* Space around the content */
+    text-align: center; /* Center content */
+}
+
+/* Header (h1) styling */
+h1 {
+    font-size: 36px; /* Larger font size for the title */
+    color: #005b5c; /* Teal color for headings */
+    margin: 20px 0; /* Space around the heading */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px; /* Medium font size */
+    color: #555; /* Slightly lighter grey for paragraph text */
+    max-width: 600px; /* Limit the width for better readability */
+    margin: 0 auto 20px; /* Center the paragraph */
+    line-height: 1.6; /* Increase line spacing for readability */
+}
+
+/* List styling */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 20px auto; /* Center list with auto margins */
+}
+
+/* List items styling */
+li {
+    margin: 10px 0; /* Space between list items */
+}
+
+/* Link styling */
+a {
+    display: inline-block; /* Make links block elements */
+    text-decoration: none; /* Remove underline */
+    background-color: #00796b; /* Teal background for links */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 15px; /* Padding for the links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+/* Link hover effect */
+a:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px; /* Reduce font size on small screens */
+    }
+
+    p {
+        font-size: 16px; /* Smaller text for mobile */
+    }
+
+    a {
+        padding: 8px 12px; /* Adjust padding for smaller screens */
+    }
+}
